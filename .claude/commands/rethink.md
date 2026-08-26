@@ -1,0 +1,1 @@
+../../commands/rethink.md

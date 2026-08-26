@@ -1,0 +1,10 @@
+{
+  "name": "claude-prompt-patterns",
+  "version": "0.1.0",
+  "description": "Reusable prompting patterns as slash commands: /rethink (first-principles rewrites), /architect (delegate to parallel Opus agents and review), /deploy (deploy via a project-local cheat file)",
+  "author": {
+    "name": "Sondre Engebråten"
+  },
+  "license": "MIT",
+  "keywords": ["prompt", "patterns", "refactoring", "architecture", "deploy", "commands"]
+}
