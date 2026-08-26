@@ -7,6 +7,10 @@ This is a Claude Code plugin. "Deploy" = publish to GitHub, let release-please v
 - On `main`, clean working tree, all work committed with conventional commits
 - `gh auth status` logged in as `falense`
 - `claude plugin validate .` passes
+- One-time: the repo must allow Actions to open PRs, or release-please fails with "GitHub Actions is not permitted to create or approve pull requests":
+  ```
+  gh api -X PUT repos/falense/claude-prompt-patterns/actions/permissions/workflow -f default_workflow_permissions=write -F can_approve_pull_request_reviews=true
+  ```
 
 ## Steps
 
